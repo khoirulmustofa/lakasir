@@ -20,5 +20,14 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => "UMUM"
         ]);
+        Category::create([
+            'name' => "MINYAK"
+        ]);
+        Category::create([
+            'name' => "POKOK"
+        ]);
+        Category::create([
+            'name' => "BERAS"
+        ]);
     }
 }
